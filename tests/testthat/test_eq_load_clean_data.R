@@ -1,5 +1,4 @@
 context('test shortcut method to load and clean data in one shot')
-
 test_that('eq_load_clean_data loads data correctly', {
 
   quick_quakes <- eq_load_clean_data()
