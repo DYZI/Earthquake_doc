@@ -1,5 +1,4 @@
 context('geom_timeline_label')
-
 test_that('geom_timeline_label works, using 2 countries', {
   quakes <- eq_load_clean_data()
 
