@@ -21,7 +21,7 @@ The `earthquake` package is a small R package for cleaning, timelining, and mapp
 To install the `earthquake` package, the user must install the `devtools` package.  Then, to download and install the `earthquake` package, use the following commands:
 
 ```{r eval=FALSE}
-devtools::install_github('ZYDI/Earthquake')
+devtools::install_github('DYZI/Earthquake_doc')
 library(earthquake)
 ```
 
@@ -66,7 +66,7 @@ tail(quakes)
 
 ### Load and Clean Downloaded Data
 
-If you wish to use NOAA Significant Earthquake data updated after April 1, 2017, please visit the NOAA Significant Earthquakes site at  https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1 and download the data to your working directory. Then you may load and clean data for analysis using the following sequence of commands (replace `filename` with the location of your file):
+If you wish to use NOAA Significant Earthquake data updated after April, 2019, please visit the NOAA Significant Earthquakes site at  https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1 and download the data to your working directory. Then you may load and clean data for analysis using the following sequence of commands (replace `filename` with the location of your file):
 
 ```{r message = FALSE}
 filename <- system.file('extdata', 'earthquakes.txt', package = 'earthquake')
@@ -221,9 +221,3 @@ quakes %>%
   dplyr::mutate(popup_text = eq_create_label(.)) %>%
   eq_map(annot_col = 'popup_text')
 ```
-
-## Future Developments
-
-Following the conclusion of the Coursera Specialization with the submission of this package, I will likely do very little additional development on this package.
-
-However, future plans for use of this package include making an R Shiny app with the `flexdashboard` package, and using this package as an underpinning for making interactive plots and timelines, and posting on my blog.
