@@ -21,7 +21,7 @@ The `earthquake` package is a small R package for cleaning, timelining, and mapp
 To install the `earthquake` package, the user must install the `devtools` package.  Then, to download and install the `earthquake` package, use the following commands:
 
 ```{r eval=FALSE}
-devtools::install_github('DYZI/Earthquake_doc')
+devtools::install_github('ZYDI/Earthquake')
 library(earthquake)
 ```
 
