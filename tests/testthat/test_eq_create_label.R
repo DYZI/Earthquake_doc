@@ -1,5 +1,4 @@
 context('test popup labels created correctly')
-
 test_that('popup labels create correctly', {
   qs <- eq_load_clean_data()
   cols_start <- ncol(qs)
