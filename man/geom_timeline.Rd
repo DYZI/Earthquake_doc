@@ -64,4 +64,5 @@ quakes \%>\%
   scale_size_continuous(name = 'Richter scale value') +
   scale_color_continuous(name = '# of Deaths') +
   theme_eq()
+
 }
