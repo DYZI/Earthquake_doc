@@ -1,5 +1,4 @@
 context('clean data')
-
 # load quakes from package
 df <- quakes
 
