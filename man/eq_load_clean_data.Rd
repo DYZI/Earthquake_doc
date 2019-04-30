@@ -24,4 +24,5 @@ library(dplyr)
 quakes1 <- eq_load_clean_data()
 # is equivalent to:
 quakes2 <- quakes \%>\% eq_clean_data() \%>\% eq_location_clean()
+  
 }
