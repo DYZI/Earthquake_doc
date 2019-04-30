@@ -33,4 +33,5 @@ and mapping.
 \examples{
 data(quakes)
 quakes_loc_clean <- eq_location_clean(quakes)
+  
 }
