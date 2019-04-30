@@ -10,6 +10,7 @@ eq_load_clean_data()
 A \code{tbl_df} of NOAA Significant Earthquakes Data, cleaned with
   the functions \link{eq_clean_data} and \link{eq_location_clean}.
 }
+
 \description{
 \code{eq_load_clean_data} is a shortcut to loading and cleaning the NOAA
 \code{\link{quakes}} data supplied with this package.
