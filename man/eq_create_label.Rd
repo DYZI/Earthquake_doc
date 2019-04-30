@@ -38,6 +38,5 @@ quakes <- eq_load_clean_data() \%>\%
  dplyr::filter(COUNTRY == 'JAPAN') \%>\%
  dplyr::filter(lubridate::year(DATE) >= 2000) \%>\%
  dplyr::mutate(popup_text = eq_create_label(.))
-
 eq_map(quakes, annot_col = 'popup_text')
 }
