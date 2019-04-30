@@ -33,7 +33,6 @@ the top 5 earthquakes for each country specified, however, the user may
 adjust this with the \code{n_max} aesthetic.
 }
 \section{Aesthetics}{
-
 \code{geom_timeline_label} undertands the following aesthetics (required
 aesthetics are in bold):
 \itemize{
