@@ -46,7 +46,6 @@ eq_clean_data <- function(data) {
       stop('Missing required variable: ', rv)
     }
   })
-
   data <- data %>%
     dplyr::mutate_(
       LONGITUDE = ~as.numeric(LONGITUDE),
