@@ -1,7 +1,6 @@
 context('clean data')
 # load quakes from package
 df <- quakes
-
 test_that('basic function works correctly', {
 
   df_clean <- eq_clean_data(df)
