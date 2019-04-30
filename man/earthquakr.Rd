@@ -7,4 +7,5 @@
 \title{earthquakr: A visualization package for world earthquake histories}
 \description{
 This package maps and timelines earthquakes.
+  
 }
