@@ -1,7 +1,6 @@
 context('clean location data')
 
 df <- quakes
-
 test_that('basic location name cleaning function works', {
   df_clean <- eq_location_clean(df)
 
