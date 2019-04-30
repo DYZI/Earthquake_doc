@@ -1,5 +1,4 @@
 context('geom_timeline')
-
 test_that('geom_timeline works, allows 2 countries', {
   quakes <- eq_load_clean_data()
 
@@ -16,5 +15,4 @@ test_that('geom_timeline works, allows 2 countries', {
   expect_length(unique(out$y), 2)
 
   expect_equal(sum(out$group == out$y), nrow(out))
-
 })
