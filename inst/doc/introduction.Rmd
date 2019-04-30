@@ -39,7 +39,7 @@ library(lubridate)
 
 ## Loading Data
 
-The NOAA Significant Earthquake dataset, as it existed on April 1, 2017, is provided with this package, using the data set name `quakes`.  If you wish to use data updated after this date, please see the dataset documentation (`?earthquake:quakes`) for source.
+The NOAA Significant Earthquake dataset, as it existed on April, 2019, is provided with this package, using the data set name `quakes`.  If you wish to use data updated after this date, please see the dataset documentation (`?earthquake:quakes`) for source.
 
 ### Load and Clean Package Data
 
