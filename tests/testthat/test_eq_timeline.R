@@ -21,7 +21,4 @@ test_that('geom_timeline works, allows 2 countries', {
                     date_min = '1950-01-01', label_n = 5)
   out3 <- layer_data(p3, 2)
   expect_gt(nrow(out3), nrow(out2))
-
 })
-
-
