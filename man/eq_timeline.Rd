@@ -52,6 +52,7 @@ quakes <- eq_load_clean_data()
 quakes \%>\% eq_timeline(countries = 'USA', date_min = as.Date('1995-01-01'),
                       date_max = as.POSIXct('2015-01-01'), label_n = 0)
 
+  
 # An example with multiple countries and 5 labels per country.
 quakes <- eq_load_clean_data()
 quakes \%>\% eq_timeline(countries = c('JAPAN', 'INDONESIA', 'HAITI'),
