@@ -24,4 +24,5 @@ following criteria: Moderate damage (approximately $1 million or more), 10 or
 more deaths, Magnitude 7.5 or greater, Modified Mercalli Intensity X or
 greater, or the earthquake generated a tsunami."
 }
+
 \keyword{datasets}
