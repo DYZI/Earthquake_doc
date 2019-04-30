@@ -31,7 +31,6 @@ test_that('throws error if do not have right columns', {
                'Missing required variable: DEATHS')
   expect_error(eq_clean_data(df %>% dplyr::select(-EQ_PRIMARY)),
                'Missing required variable: EQ_PRIMARY')
-
   # remove a column we don't care much about
   expect_is(eq_clean_data(df %>% dplyr::select(-MINUTE)), 'tbl_df')
 })
