@@ -26,7 +26,8 @@ You may read the interactive vignette at my personal blog site, at: http://dataw
 
 Alternatively, read the introduction vignette using the command `vignette('introduction', package = 'earthquake')` after installation.  However, in order to do this, you must build the vignettes when installing, using the command `devtools::install_github('DYZI/Earthquake', build_vignettes = TRUE)`
 
-Review Criteria
+
+### Review Criteria
 •	Your package must be hosted on GitHub [GitHub repository](https://github.com/DYZI/Earthquake). 
 You will be providing the URL to your package on GitHub so that other students can evaluate your work.
 
