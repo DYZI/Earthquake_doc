@@ -26,4 +26,5 @@ quakes \%>\% dplyr::filter(COUNTRY \%in\% c('USA', 'UK')) \%>\%
   ggplot2::scale_size_continuous(name = 'Richter scale value') +
   ggplot2::scale_color_continuous(name = '# of Deaths') +
   theme_eq()
+  
 }
