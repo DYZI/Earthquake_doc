@@ -30,7 +30,6 @@ install_github("DYZI/Earthquake")
 library(earthquake)
 
 ## Necessary Packages
-
 To work through these examples, the following packages need to be installed and loaded:
 
 ```{r message = FALSE}
