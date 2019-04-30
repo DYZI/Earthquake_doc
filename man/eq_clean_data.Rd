@@ -41,7 +41,6 @@ handle with care.  Also, for some events the month and day are not available,
 so those are approximated by January and 01, respectively.
 }
 \examples{
-
 data(quakes)
 quakes_clean <- eq_clean_data(quakes)
 }
