@@ -34,7 +34,6 @@ particular, it creates a \code{DATE} feature by combing the \code{YEAR},
 \code{LONGITUDE} features are of type \code{numeric}.  Also converts the
 \code{DEATHS}, \code{TOTAL_DEATHS}, and \code{EQ_PRIMARY} (Richter scale
 value) to type \code{numeric}.
-
 For the \code{DATE} variable, note that R does not handle years before 1CE
 correctly (see documentation for \code{\link[base]{as.Date}}). This function
 has attempted to make an approximation of those dates, but the user should
